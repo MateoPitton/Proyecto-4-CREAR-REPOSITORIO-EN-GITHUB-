@@ -5,8 +5,15 @@
     outline: 0px;
     box-sizing: border-box;
 }
-body{
-    background: darkblue;
-    color: white;
-    -webkit-font-smoothing: antialiased;
+header{
+    background-color: blue;
+    display: flex;
+}
+ul li{
+    display: inline-block;
+    background-color: white;
+    border: 5px; 
+    padding: 10px;
+    margin: 7px;
+    font-size: larger;
 }
